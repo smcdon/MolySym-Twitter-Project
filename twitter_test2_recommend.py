@@ -10,10 +10,10 @@ class Twitter(QtGui.QMainWindow):
         self.ui = Ui_twitter_client()
         self.ui.setupUi(self)
 
-        # define character limits/status and login info
+        # set character limit for text box; set status and login info
         self.max = 140
-        self.uid = 's_mcdon'
-        self.pwd = 'Twitt3rAnon'
+        self.uid = '' # add username here
+        self.pwd = '' # add password here
         self.updateLabel()
 
         # set up signals and slots
